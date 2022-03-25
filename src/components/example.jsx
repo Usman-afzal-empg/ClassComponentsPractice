@@ -5,9 +5,6 @@ class Example extends Component {
     name: "",
     count: 0,
   };
-  componentDidMount() {
-    console.log("here");
-  }
   render() {
     const { name, count } = this.state;
     return (
