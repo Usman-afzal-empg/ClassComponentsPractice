@@ -27,8 +27,6 @@ class Example extends Component {
     return true;
   }
   componentWillUnmount() {
-    debugger;
-
     console.log("In the component will unmount method");
   }
   render() {
