@@ -30,12 +30,11 @@ class Example extends Component {
     console.log("In the component will unmount method");
   }
   render() {
-    debugger;
-
     console.log("In the render method");
     const { name, count } = this.state;
     return (
       <Fragment>
+        <h4>Class Component</h4>
         <input type="text" value={name} onChange={this.handleNameChange} />
         {count > 0 && (
           <div>
